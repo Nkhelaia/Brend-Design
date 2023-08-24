@@ -555,6 +555,9 @@
         width: 150px;
         height: 28px;
     }
+    .start header .right i{
+        margin-right: 25px;
+    }
     .start .center{
         display: flex;
         justify-content: end;
@@ -597,15 +600,16 @@
     }
     .solutions .left h1{
         font-weight: 900;
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 1.1;
         margin-top: 5px;
+        margin-left: 100px;
     }
     .solutions .left span{
         font-size: 1rem;
         line-height: 1.1;
         margin-top: 5px;
-
+        margin-left: 100px;
     }
     .solutions .right{
         margin-top: 10px;
@@ -857,6 +861,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        text-align: center;
     }
     .team .img-box{
         width: 100%;
